@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <Index/>
     </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Index from './views/Index.vue'
 </script>
 <style lang="scss">
 @import './styles/variables.scss';
